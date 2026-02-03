@@ -1,3 +1,4 @@
+import FeaturedCourses from "../components/FeaturedCourses";
 import HeroSection from "../components/HeroSection";
 import { Spotlight } from "@/src/components/ui/Spotlight";
 
@@ -9,6 +10,7 @@ export default function Home() {
         fill="white"
       />
       <HeroSection />
+      <FeaturedCourses />
     </main>
   );
 }
