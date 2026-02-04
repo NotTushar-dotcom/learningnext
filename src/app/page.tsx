@@ -1,6 +1,7 @@
 import FeaturedCourses from "../components/FeaturedCourses";
 import HeroSection from "../components/HeroSection";
 import { Spotlight } from "@/src/components/ui/Spotlight";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       />
       <HeroSection />
       <FeaturedCourses />
+      <WhyChooseUs />
     </main>
   );
 }
