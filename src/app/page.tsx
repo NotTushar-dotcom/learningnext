@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import { Spotlight } from "@/src/components/ui/Spotlight";
 import WhyChooseUs from "../components/WhyChooseUs";
 import MusicSchoolTestimonials from "@/src/components/TestimonialCards";
+import Footer from "../components/Footer";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <FeaturedCourses />
       <WhyChooseUs />
       <MusicSchoolTestimonials />
+      <Footer/>
     </main>
   );
 }
