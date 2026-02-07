@@ -2,7 +2,8 @@ import FeaturedCourses from "../components/FeaturedCourses";
 import HeroSection from "../components/HeroSection";
 import { Spotlight } from "@/src/components/ui/Spotlight";
 import WhyChooseUs from "../components/WhyChooseUs";
-import { InfiniteMovingCards } from "../components/InfiniteMovingCards";
+import MusicSchoolTestimonials from "@/src/components/TestimonialCards";
+
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <HeroSection />
       <FeaturedCourses />
       <WhyChooseUs />
-      <InfiniteMovingCards />
+      <MusicSchoolTestimonials />
     </main>
   );
 }
